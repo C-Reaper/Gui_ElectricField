@@ -58,7 +58,7 @@ void Update(AlxWindow* w){
 
     Clear(BLACK);
     
-    ElectricField_Render(&ef,WINDOW_STD_ARGS,&tv,WHITE);
+    ElectricField_Render(&ef,WINDOW_STD_ARGS,&tv,1.0f,WHITE);
 }
 void Delete(AlxWindow* w){
     ElectricField_Free(&ef);
